@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-3</title>
+    <style>
+      /* Improved styles for Task-3 */
+      div {
+        border: 1px solid #ddd;
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        background-color: #f4f4f4; /* Use a lighter background color for better readability */
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline;
+        margin-right: 10px; /* Add space between list items */
+      }
+
+      li::after {
+        content: "|";
+        margin-left: 10px; /* Add space after the pipe character */
+        color: #777; /* Use a subdued color for the pipe */
+      }
+
+      li:last-child::after {
+        content: ""; /* Remove the pipe character after the last list item */
+      }
+
+      a {
+        text-decoration: none; /* Remove underline from links */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Click any of the following links</p>
+      <ul>
+        <li>
+          <a href="t1.htm" target="_blankt">Opens in New</a>
+        </li>
+        <li>
+          <a href="t1.htm" target="_self">Opens in Self</a>
+        </li>
+        <li>
+          <a href="t1.htm" target="_parent">Opens in Parent</a>
+        </li>
+        <li>
+          <a href="t1.htm" target="_top">Opens in Body</a>
+        </li>
+        <li>
+          <a href="mailto:shashwat.wankhedekar2021@vitstudent.ac.in"
+            >Send Email</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
