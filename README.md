@@ -1,2 +1,2 @@
 # MERN - TASK 1
-[Click Here](https://shashwatwankhedekar.github.io/mern_task/)
+[Click Here](https://mern-react-task-psi.vercel.app/)
